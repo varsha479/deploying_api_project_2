@@ -45,12 +45,12 @@ You can modify the value to `true` or `false` depending on your requirements.
 ### **4. Access Environment Variables**
 Use `process.env` to access your variables anywhere in your application. Here's an example:
 ```javascript
-const isAdmin = process.env.IS_ADMIN === 'true';
 
 if (isAdmin) {
   console.log("Admin privileges granted.");
 } else {
-  console.log("Access restricted. Admin only.");
+  consolconst isAdmin = process.env.IS_ADMIN === 'true';
+e.log("Access restricted. Admin only.");
 }
 ```
 
@@ -83,3 +83,4 @@ By completing this exercise, you will:
 - Learn to handle different environments securely and efficiently.
 
 🎉 **Congratulations!** You’ve mastered a crucial skill for **full-stack development**! 💼🔐
+
